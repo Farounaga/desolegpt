@@ -14,6 +14,7 @@ print(f"DISCORD_TOKEN from env: {TOKEN}")  # Добавь это в начало
 intents = discord.Intents.default()
 intents.messages = True
 intents.guilds = True
+intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
