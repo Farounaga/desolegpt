@@ -100,7 +100,7 @@ async def on_message(message):
                 else:
                     print(f"❌ AYO: file {video_file} not found!")
 
-    await bot.process_commands(message)
+    
 
 
 bot.run(TOKEN)
